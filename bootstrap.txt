@@ -1,0 +1,7 @@
+menu 
+carrousel
+formulaire (contact)
+carte 
+notion des grid + js de bootstrap
+notion de modal (pop up )
+tabs onglet nav-tabs
