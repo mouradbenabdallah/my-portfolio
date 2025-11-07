@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Mourad</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 shadow-lg">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a
+          class="navbar-brand d-flex align-items-center fs-4 fw-bold"
+          href="/index.html"
+        >
+          Mourad Portfolio
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links + Mini Carousel -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 rounded-pill" href="index.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link px-3 py-2 rounded-pill active"
+                href="resume.html"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 rounded-pill" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 rounded-pill" href="blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 rounded-pill" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <!-- Auto-rotating icons -->
+          <div
+            id="skillsCarousel"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+            data-bs-interval="2000"
+            style="width: 140px"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center gap-2">
+                  <img src="./assets/images/icon-design.svg" width="32" />
+                  <img src="./assets/images/icon-dev.svg" width="32" />
+                  <img src="./assets/images/icon-app.svg" width="32" />
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center gap-2">
+                  <img src="./assets/images/icon-quote.svg" width="32" />
+                  <img src="./assets/images/icon-dev.svg" width="32" />
+                  <img src="./assets/images/icon-design.svg" width="32" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-lg-4 mb-4">
+          <div class="card shadow-lg border-0 rounded-4 p-4 bg-white">
+            <div class="card-body text-center">
+              <img
+                src="./kilua.gif"
+                alt="Mourad Ben Abdallah"
+                class="img-fluid rounded-pill mb-3 shadow-lg"
+                style="width: 140px; height: 140px; object-fit: cover"
+              />
+              <h1 class="h3 fw-bold text-dark mb-2">Mourad Ben Abdallah</h1>
+              <p class="text-primary fs-5 fw-semibold mb-0">Developer</p>
+            </div>
+
+            <hr class="my-4" />
+
+            <ul class="list-unstyled px-3">
+              <li class="mb-4 d-flex align-items-start">
+                <i class="bi bi-envelope-fill fs-3 me-4 text-primary mt-1"></i>
+                <div>
+                  <small class="text-muted d-block mb-1">Email</small>
+                  <strong class="d-block text-dark"
+                    >mouradabdallah581@gmail.com</strong
+                  >
+                </div>
+              </li>
+              <li class="mb-4 d-flex align-items-start">
+                <i class="bi bi-telephone-fill fs-3 me-4 text-primary mt-1"></i>
+                <div>
+                  <small class="text-muted d-block mb-1">Phone</small>
+                  <strong class="d-block text-dark">+216 93 086 101</strong>
+                </div>
+              </li>
+              <li class="d-flex align-items-start">
+                <i class="bi bi-geo-alt-fill fs-3 me-4 text-primary mt-1"></i>
+                <div>
+                  <small class="text-muted d-block mb-1">Location</small>
+                  <strong class="d-block text-dark">Tunisia, Zaghouan</strong>
+                </div>
+              </li>
+            </ul>
+
+            <hr class="my-4" />
+
+            <div class="text-center">
+              <a href="#" class="text-primary fs-2 me-4 text-decoration-none"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-primary fs-2 me-4 text-decoration-none"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="text-primary fs-2 text-decoration-none"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="col-lg-8">
+          <div class="card shadow-xl border-0 rounded-4 p-5 bg-white">
+            <h2
+              class="h2 fw-bold border-bottom border-primary border-3 pb-3 mb-5"
+            >
+              Professional Experience
+            </h2>
+
+            <ul class="list-unstyled">
+              <li class="mb-5 p-4 bg-light rounded-3 shadow-sm">
+                <h5 class="h5 fw-bold text-dark mb-1">BisoftCom, Sfax</h5>
+                <small class="text-muted d-block mb-2"
+                  >Final Year Internship — Feb. 2025 – May 2025</small
+                >
+                <p class="mb-0 text-dark">
+                  Developed an intelligent email module integrated into an ERP
+                  system using <strong>Angular</strong> and
+                  <strong>.NET 6 (C#)</strong>. Implemented automatic
+                  classification, email history tracking, and automation via
+                  Postmark API. Designed ergonomic interfaces, optimized
+                  performance, and ensured seamless integration with existing
+                  modules.
+                </p>
+              </li>
+
+              <li class="mb-5 p-4 bg-light rounded-3 shadow-sm">
+                <h5 class="h5 fw-bold text-dark mb-1">9antra</h5>
+                <small class="text-muted d-block mb-2"
+                  >Mobile Development Internship — Jul. 2023</small
+                >
+                <p class="mb-0 text-dark">
+                  Trained and contributed to mobile app development using
+                  <strong>Flutter</strong>. Designed intuitive UIs, integrated
+                  databases, and optimized performance. Strengthened skills in
+                  OOP, REST APIs, and team collaboration.
+                </p>
+              </li>
+
+              <li class="mb-5 p-4 bg-light rounded-3 shadow-sm">
+                <h5 class="h5 fw-bold text-dark mb-1">Ashbot Academy</h5>
+                <small class="text-muted d-block mb-2"
+                  >Mobile Development Internship — Jan. 2024</small
+                >
+                <p class="mb-0 text-dark">
+                  Contributed to the development of <strong>Maktba</strong>, a
+                  digital library app. Participated in key feature design,
+                  improved user experience, and ensured technical performance
+                  and fluidity.
+                </p>
+              </li>
+
+              <li class="mb-5 p-4 bg-light rounded-3 shadow-sm">
+                <h5 class="h5 fw-bold text-dark mb-1">
+                  Poste Régionale de Zaghouan
+                </h5>
+                <small class="text-muted d-block mb-2"
+                  >Customer Service Agent — Jul. 2024</small
+                >
+                <p class="mb-0 text-dark">
+                  Managed financial and banking operations with precision.
+                  Assisted clients with transactions, ensuring high-quality
+                  service and compliance with administrative procedures.
+                </p>
+              </li>
+            </ul>
+
+            <h3
+              class="h3 fw-bold text-primary mt-5 mb-4 border-bottom border-primary pb-3"
+            >
+              <i class="bi bi-book-fill me-2"></i>Education
+            </h3>
+
+            <ul class="list-unstyled">
+              <li class="mb-4 p-3 bg-light rounded-3 shadow-sm">
+                <h5 class="h6 fw-bold text-dark mb-1">
+                  ITEAM University, Tunis
+                </h5>
+                <small class="text-muted"
+                  >1st Year Engineering (Adapted Schedule) — 2025 –
+                  Present</small
+                >
+              </li>
+              <li class="mb-4 p-3 bg-light rounded-3 shadow-sm">
+                <h5 class="h6 fw-bold text-dark mb-1">ISET Zaghouan</h5>
+                <small class="text-muted"
+                  >Bachelor’s in Information Systems Development — 2023 –
+                  2025</small
+                >
+              </li>
+              <li class="mb-4 p-3 bg-light rounded-3 shadow-sm">
+                <h5 class="h6 fw-bold text-dark mb-1">ISET Siliana</h5>
+                <small class="text-muted"
+                  >Computer Science Technologies — 2022 – 2023</small
+                >
+              </li>
+              <li class="p-3 bg-light rounded-3 shadow-sm">
+                <h5 class="h6 fw-bold text-dark mb-1">
+                  Lycée Technique Zaghouan
+                </h5>
+                <small class="text-muted"
+                  >High School Diploma in Economics & Management — 2022</small
+                >
+              </li>
+            </ul>
+
+            <!-- Technical Skills -->
+            <h3 class="h3 fw-bold text-primary mt-5 mb-4">Technical Skills</h3>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <h5 class="h6 text-primary fw-bold mt-3 mb-3">
+                  <i class="bi bi-code-slash me-2"></i>Languages
+                </h5>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >Java / Spring Boot</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold">C# / .NET 6</label>
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-success"
+                      role="progressbar"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold">Dart / Flutter</label>
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      style="width: 95%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >Angular / TypeScript</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-warning"
+                      role="progressbar"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold">NodeJS</label>
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <h5 class="h6 text-primary fw-bold mt-3 mb-3">
+                  <i class="bi bi-server me-2"></i>Databases
+                </h5>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >PostgreSQL / MySQL</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold">Neo4j</label>
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-secondary"
+                      role="progressbar"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+                </div>
+
+                <h5 class="h6 text-primary fw-bold mt-4 mb-3">
+                  <i class="bi bi-gear-wide-connected me-2"></i>DevOps
+                </h5>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >Linux / Docker / Git</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-success"
+                      role="progressbar"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >CI/CD (GitLab, Vercel)</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >UML / Agile Methodologies</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-warning"
+                      role="progressbar"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label fw-semibold"
+                    >Photoshop / Premiere Pro / Canva</label
+                  >
+                  <div class="progress" style="height: 12px">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="bg-primary text-white py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-2">&copy; 2025 Mourad Ben Abdallah</p>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="#" class="text-white text-decoration-none">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+          <a href="#" class="text-white text-decoration-none">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+          <a
+            href="mailto:mouradabdallah581@gmail.com"
+            class="text-white text-decoration-none"
+          >
+            <i class="bi bi-envelope"></i> Email
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

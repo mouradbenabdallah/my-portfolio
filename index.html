@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ====================== NAVBAR ====================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4 fw-bold" href="index.html"
+          >Mourad Portfolio</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active rounded-pill px-3 py-2"
+                href="index.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-pill px-3 py-2" href="resume.html"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-pill px-3 py-2" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-pill px-3 py-2" href="blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-pill px-3 py-2" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <!-- Mini skill carousel -->
+          <div
+            id="skillsCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="2000"
+            style="width: 140px"
+          >
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <img src="./assets/images/icon-design.svg" width="32" alt="" />
+                <img src="./assets/images/icon-dev.svg" width="32" alt="" />
+                <img src="./assets/images/icon-app.svg" width="32" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/icon-quote.svg" width="32" alt="" />
+                <img src="./assets/images/icon-dev.svg" width="32" alt="" />
+                <img src="./assets/images/icon-design.svg" width="32" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ====================== MAIN CONTENT ====================== -->
+    <div class="container my-5">
+      <div class="row">
+        <!-- ==== SIDEBAR ==== -->
+        <aside class="col-lg-4 mb-4">
+          <div class="card shadow p-4 rounded-4">
+            <div class="text-center">
+              <img
+                src="./kilua.gif"
+                alt="Mourad Ben Abdallah"
+                class="rounded-pill shadow mb-3"
+                style="width: 140px; height: 140px; object-fit: cover"
+              />
+              <h1 class="h3 fw-bold">Mourad Ben Abdallah</h1>
+              <p class="text-primary fs-5 fw-semibold">Developer</p>
+            </div>
+
+            <hr class="my-4" />
+
+            <ul class="list-unstyled">
+              <li class="d-flex mb-3">
+                <i class="bi bi-envelope-fill text-primary fs-4 me-3"></i>
+                <div>
+                  <small class="text-muted d-block">Email</small>
+                  <strong>mouradabdallah581@gmail.com</strong>
+                </div>
+              </li>
+              <li class="d-flex mb-3">
+                <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
+                <div>
+                  <small class="text-muted d-block">Phone</small>
+                  <strong>+216 93 086 101</strong>
+                </div>
+              </li>
+              <li class="d-flex">
+                <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+                <div>
+                  <small class="text-muted d-block">Location</small>
+                  <strong>Tunisia, Zaghouan</strong>
+                </div>
+              </li>
+            </ul>
+
+            <hr class="my-4" />
+
+            <div class="text-center">
+              <a href="#" class="text-primary fs-3 mx-2"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-primary fs-3 mx-2"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="text-primary fs-3 mx-2"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- ==== MAIN ==== -->
+        <main class="col-lg-8">
+          <!-- About text -->
+          <div class="card shadow p-4 rounded-4 mb-4">
+            <h2 class="h2 fw-bold border-bottom border-primary pb-3 mb-4">
+              About Me
+            </h2>
+            <p class="fs-5 lh-lg">
+              I'm Mourad, a passionate Flutter Developer and student
+              specializing in mobile app development and modern web
+              technologies. I love creating seamless, high-performance
+              applications that combine clean design with powerful
+              functionality.
+            </p>
+            <p class="fs-5 lh-lg">
+              My goal is to build innovative, user-centered digital experiences
+              that solve real problems and make technology more accessible. I
+              approach every project with creativity, precision, and a strong
+              focus on delivering quality results.
+            </p>
+          </div>
+
+          <!-- What I'm Doing -->
+          <div class="card shadow p-4 rounded-4 mb-4">
+            <h3
+              class="h3 fw-bold text-primary border-bottom border-primary pb-3 mb-4"
+            >
+              What I'm Doing
+            </h3>
+
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div
+                  class="d-flex align-items-center p-3 bg-light rounded shadow-sm"
+                >
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    width="45"
+                    class="me-3"
+                    alt=""
+                  />
+                  <div>
+                    <h5 class="fw-bold mb-1">Web Design</h5>
+                    <p class="text-muted mb-0 small">
+                      Modern and high-quality design.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div
+                  class="d-flex align-items-center p-3 bg-light rounded shadow-sm"
+                >
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    width="45"
+                    class="me-3"
+                    alt=""
+                  />
+                  <div>
+                    <h5 class="fw-bold mb-1">Web Development</h5>
+                    <p class="text-muted mb-0 small">
+                      High-quality development of sites.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div
+                  class="d-flex align-items-center p-3 bg-light rounded shadow-sm"
+                >
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    width="45"
+                    class="me-3"
+                    alt=""
+                  />
+                  <div>
+                    <h5 class="fw-bold mb-1">Mobile Apps</h5>
+                    <p class="text-muted mb-0 small">
+                      Apps for iOS and Android.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div
+                  class="d-flex align-items-center p-3 bg-light rounded shadow-sm"
+                >
+                  <img
+                    src="./assets/images/icon-quote.svg"
+                    width="45"
+                    class="me-3"
+                    alt=""
+                  />
+                  <div>
+                    <h5 class="fw-bold mb-1">Server RP Developer</h5>
+                    <p class="text-muted mb-0 small">High-quality server.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Button to open modal -->
+          <div class="text-center mt-4">
+            <button
+              class="btn btn-primary btn-lg px-5 py-3 rounded-pill shadow"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+            >
+              View My Last Project
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- ====================== MODAL (one project) ====================== -->
+    <div
+      class="modal fade"
+      id="projectModal"
+      tabindex="-1"
+      aria-labelledby="projectModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content rounded-4 shadow">
+          <div class="modal-header border-0">
+            <h5
+              class="modal-title h4 fw-bold text-primary"
+              id="projectModalLabel"
+            >
+              My Last Project
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-0">
+            <img
+              src="./assets/images/gta.jpg"
+              class="w-100"
+              alt="GTA RP Server"
+            />
+            <div class="p-4">
+              <h5 class="fw-bold">
+                GTA 5 SERVER ROLE PLAY with Microsoft Azure
+              </h5>
+              <p class="text-muted">
+                Creation of a high-performance role-play server hosted on Azure.
+              </p>
+              <!-- Button to go to full project page -->
+              <a
+                href="gta-project.html"
+                class="btn btn-primary btn-lg px-5 rounded-pill shadow-sm"
+              >
+                View PREOGRESS
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="bg-primary text-white py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-2">&copy; 2025 Mourad Ben Abdallah</p>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="#" class="text-white text-decoration-none">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+          <a href="#" class="text-white text-decoration-none">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+          <a
+            href="mailto:mouradabdallah581@gmail.com"
+            class="text-white text-decoration-none"
+          >
+            <i class="bi bi-envelope"></i> Email
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
